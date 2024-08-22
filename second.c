@@ -7,7 +7,7 @@ void square_of_a_number(int num){
     printf("enter a num -> ");
     scanf("%d", &num);
     float square_of_a_number = pow( num , 2 );
-    printf("square of this number is : %d\n", num);
+    printf("square of this number is : %d\n", square_of_a_number);
 }
 void area_of_circle(float radius){
     printf("enter the radius -> ");
